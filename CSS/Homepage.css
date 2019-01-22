@@ -1,0 +1,256 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110px;
+    z-index: 10;
+    background-color: rgb(82, 92, 126);
+    font-family: "Rock Salt", cursive;
+}
+section {
+    width: 100%;
+    height: 800px;
+    float: left;
+    position: relative;
+}
+
+section:nth-child(odd){
+    background-color: rgb(250, 235, 232);
+    background-size: 100%;
+}
+
+.container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/*Site Navigation*/
+
+.site-nav li{
+    list-style: none;
+    float: right;
+    font-size: 170%;
+    margin: 15px;
+    margin-top: 25px;
+    font-family: "Montserrat", sans-serif;
+
+ 
+}
+
+.site-nav li:nth-child(1){
+    float: left;
+    font-size: 200%;
+    margin: 0px;
+    font-family: "Rock Salt", cursive;
+}
+.site-nav li:nth-child(2){
+    margin-right: 40px;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+}
+
+.links a:hover{
+    color: rgb(120, 202, 240)
+    
+}
+
+/*end nav*/
+
+/*home*/
+.bridge-pic{
+    max-width: 100%;
+    height: auto;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+#home{
+    position: relative;
+}
+
+#home p{
+    position: absolute;
+    right: 0;
+    bottom: 130px;
+    color: white;
+    font-size: 50px;
+    font-family: "Montserrat", sans-serif;
+}
+
+/*About*/
+
+#about-section {
+    float: left;
+    width: 40%;
+    height: 60%;
+    margin: 5%;
+    margin-top: 15%;
+    font-family:"Montserrat", sans-serif;
+    position: relative;
+}
+
+#about-section h1{
+    font-size: 170%;
+    color: rgb(82, 92, 126);
+    font-family: "Rock Salt", cursive;
+}
+
+#about-section p{
+    font-size: 120%;
+}
+
+.resume{
+    position: absolute;
+    bottom: 15%;
+}
+
+#tulips{
+    right: 0;
+    top: 0;
+    max-width: 50%;
+    height: 50%;
+    float: right;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); 
+    
+}
+
+.pic-me{
+    max-width: 85%;
+    height: auto;
+    padding: 1px;
+    background: black;
+    display: block;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); 
+ 
+}
+
+
+
+#tulips:hover .tulips{
+    visibility: visible;
+    opacity: 1;
+}
+
+.tulips{
+    position: absolute;
+    bottom: 0;
+    right: center;
+    max-width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: rgba(0, 0, 0, .5);
+    opacity: 0;
+    visibility: hidden;
+    color: white;
+    transition: opacity .3s, visibility .3s;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Contact me*/
+
+.contact-me {
+    float: right;
+    width: 40%;
+    height: 40%;
+    margin: 5%;
+    margin-top: 30%;
+    font-family:"Montserrat", sans-serif;
+    position: relative;
+    color: white;
+    font-size: 25px;
+}
+
+.contact-me #phone{
+    position: absolute;
+    bottom:10%;
+    right: 10%;
+}
+
+.contact-me #email{
+    position: absolute;
+    bottom: 30%;
+    right: 10%;
+}
+
+
+.content-area{
+    left: 0;
+    top: 160px;
+    position: absolute;
+}
+
+
+
+.cinnamon{
+    
+    width: 45%;
+    float: left;
+    box-sizing: border-box;
+    position:relative;
+    padding: 30px;
+    margin: 40px;
+    background-color: rgba(82, 92, 126, .7)
+    
+}
+
+.cinnamon img{
+    width: 100%;
+    height: 100%;
+    display: block;
+
+}
+.cinnamon:hover .cinnamon-swims{
+    visibility: visible;
+    opacity: 1;
+}
+.cinnamon-swims{
+    position: absolute;
+    font-family: 'Rock Salt', cursive;
+    left: 30px;
+    bottom: 30px;
+    background-color: rgba(140, 163, 173, 0.5);
+    font-size: 15px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .3s, visibility .3s;
+}
+
+.description{
+    width: 40%;
+    float: right;
+    box-sizing: border-box;
+    margin-right: 50px;
+    font-family: 'Rock Salt', cursive;
+    font-size: 30px;
+    color: rgb(82, 92, 126);
+}
+.body-p {
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+
+.group:after {
+    clear:both;
+}
+
+.group {
+    zoom: 1;
+}
+
